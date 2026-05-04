@@ -97,6 +97,16 @@ This serves as a foundational step toward implementing more advanced approaches 
 - Content-based file classification
 - Intelligent data organization systems
 
+--- 
+
+👩‍🔧 Machine Learning Integration
+
+This project extends rule-based logic by integrating a Naive Bayes classification model trained on file name data. 
+
+The model predicts file categories based on learned patterns, demonstrating a transition from heuristic-based systems to data-driven approaches. 
+
+This reflects an important step toward building scalable and intelligent file management systems.
+
 ---
 
 ⚠️ Limitations
