@@ -1,6 +1,6 @@
 import os
 import shutil
-
+from model import predict_category
 folder_path = input("Enter folder path: ")
 
 file_types = {
@@ -14,8 +14,8 @@ for file in os.listdir(folder_path):
     file_path = os.path.join(folder_path, file)
 
     if os.path.isfile(file_path):
-        for category, extensions in file_types.items():
-            if file.lower().endswith(tuple(extensions)):
+        category = predict_category(file)
+        
                 category_folder = os.path.join(folder_path, category)
 
                 if not os.path.exists(category_folder):
