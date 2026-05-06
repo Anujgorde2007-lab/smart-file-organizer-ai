@@ -2,6 +2,11 @@
 
 Lightweight Intelligent System for Automated File Management
 
+===
+
+## AI Concept
+This project simulates AI-based classification using rule-based logic and keyword detection. It demonstrates how intelligent systems can be built in low-resource environments without heavy models.
+
 ---
 
 📌 Overview
@@ -137,3 +142,14 @@ Aspiring AI Engineer | Focused on building efficient and scalable intelligent sy
 📄 License
 
 This project is open-source and available for learning and educational use.
+
+===
+
+## Example
+Input:
+- resume.pdf
+- invoice.jpg
+
+Output:
+- Career/resume.pdf
+- Finance/invoice.jpg
