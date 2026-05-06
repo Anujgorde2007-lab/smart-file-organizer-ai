@@ -143,7 +143,7 @@ Aspiring AI Engineer | Focused on building efficient and scalable intelligent sy
 
 This project is open-source and available for learning and educational use.
 
-===
+---
 
 ## Example
 Input:
