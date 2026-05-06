@@ -1,27 +1,18 @@
 import os
 import shutil
-from model import predict_category
-folder_path = input("Enter folder path: ")
+from ml_model import predict_category
 
-file_types = {
-    "Images": [".jpg", ".png", ".jpeg"],
-    "Documents": [".pdf", ".docx", ".txt"],
-    "Code": [".py", ".java", ".cpp"],
-    "Videos": [".mp4", ".mkv"]
-}
+folder_path = input("Enter folder path: ")
 
 for file in os.listdir(folder_path):
     file_path = os.path.join(folder_path, file)
 
     if os.path.isfile(file_path):
         category = predict_category(file)
+
+        category_folder = os.path.join(folder_path, category)
+        os.makedirs(category_folder, exist_ok=True)
+
+        shutil.move(file_path, os.path.join(category_folder, file))
         
-                category_folder = os.path.join(folder_path, category)
-
-                if not os.path.exists(category_folder):
-                    os.makedirs(category_folder)
-
-                shutil.move(file_path, os.path.join(category_folder, file))
-                break
-
 print("Files organized successfully!")
