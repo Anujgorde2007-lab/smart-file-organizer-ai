@@ -152,18 +152,21 @@ python gui.py
 
 ---
 
+---
+
 # 📸 Screenshots
 
 ## 🌙 Dark Mode
 
-![Dark Mode](./screenshots/dark-mode.png)
+![Dark Mode](screenshots/dark-mode.png)
 
 ---
 
 ## ☀️ Light Mode
 
-![Light Mode](./screenshots/light-mode.png)
+![Light Mode](screenshots/light-mode.png)
 
+---
 ---
 
 # 📈 Example Output
