@@ -50,7 +50,9 @@ Future integration:
 - 🧠 AI-inspired decision making
 - 🔧 Customizable rules
 - 💻 Works on low-resource systems
-
+- 🌗 Dark / Light mode support
+- 🎨 Modern graphical interface using Tkinter
+  
 ---
 
 ⚙️ How It Works
