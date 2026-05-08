@@ -1,177 +1,257 @@
-📁 Smart File Organizer AI
+# 🚀 AI Study Planner
 
-🚀 Overview
+An intelligent AI-powered study planner built using Python, Machine Learning, Tkinter GUI, and Matplotlib visualization.  
+This project helps students generate optimized study schedules based on subject difficulty, study hours, productivity analysis, and progress tracking.
 
-Smart File Organizer AI is a lightweight intelligent system designed to automatically organize unstructured digital files into meaningful categories.
-It combines rule-based logic with AI-inspired classification techniques to improve file management efficiency, especially in low-resource environments.
-
----
-
-❗ Problem Statement
-
-Managing large volumes of unorganized files leads to:
-
-- Time loss in searching documents
-- Reduced productivity
-- Poor digital workflow management
-
-This problem becomes more critical in environments with limited computational resources where heavy AI systems are not feasible.
+Designed as a lightweight desktop productivity assistant, the system combines AI concepts with an interactive graphical interface to improve learning efficiency and study consistency.
 
 ---
 
-💡 AI Concept
+# 🎯 Project Objective
 
-This project uses a hybrid intelligent approach:
+Many students struggle with:
+- Poor time management
+- Unbalanced study schedules
+- Lack of consistency
+- Difficulty prioritizing subjects
+- No visual understanding of study distribution
 
-- Rule-based classification (file type, naming patterns)
-- Pattern recognition from filenames
-- Metadata-based decision making
-
-Future integration:
-
-- NLP-based document understanding
-- Machine Learning classification models
+This project solves these problems using AI-based planning and productivity tracking.
 
 ---
 
-🛠️ Tech Stack
+# ✨ Features
 
-- Python
-- OS module
-- File handling system
-- Basic AI logic (rule-based classification)
-
----
-
-🔍 Key Features
-
-- 📂 Automatic file categorization
-- ⚡ Lightweight and fast execution
-- 🧠 AI-inspired decision making
-- 🔧 Customizable rules
-- 💻 Works on low-resource systems
-- 🌗 Dark / Light mode support
-- 🎨 Modern graphical interface using Tkinter
-  
----
-
-⚙️ How It Works
-
-1. Scans files in a directory
-2. Identifies file type and naming patterns
-3. Applies classification logic
-4. Creates category folders
-5. Moves files automatically
+✅ AI-based study plan generation  
+✅ Subject difficulty analysis  
+✅ Smart time distribution system  
+✅ Productivity prediction score  
+✅ Interactive Tkinter GUI  
+✅ Matplotlib pie chart visualization  
+✅ Study progress tracker  
+✅ Daily streak counter  
+✅ Reset streak functionality  
+✅ Study history saving system  
+✅ Lightweight desktop application  
+✅ Beginner-friendly ML integration
 
 ---
 
-🔄 Workflow
+# 🧠 AI / Machine Learning Concept
 
-Input Folder → Scan Files → Analyze → Classify → Organize into Folders
+The project uses a simple Machine Learning model trained on study-related data.
 
----
+The AI system:
+- Analyzes subject difficulty
+- Predicts productivity
+- Allocates study hours intelligently
+- Generates optimized schedules
 
-📁 Project Structure
-
-smart-file-organizer-ai/
-│── main.py
-│── organizer.py
-│── rules.py
-│── README.md
-
----
-
-▶️ How to Run
-
-1. Clone the repository
-2. Navigate to the project folder
-3. Run the script:
-
-python main.py
+This demonstrates practical implementation of:
+- Data preprocessing
+- ML model training
+- Prediction systems
+- AI-assisted productivity tools
 
 ---
 
-📊 Example
+# 🛠️ Tech Stack
 
-Input Files:
-
-- resume.pdf
-- invoice.jpg
-
-AI Processing:
-
-- Detects file type and naming patterns
-- Applies classification rules
-
-Output:
-
-- Career/resume.pdf
-- Finance/invoice.jpg
+| Technology | Usage |
+|---|---|
+| Python | Core programming |
+| Tkinter | GUI development |
+| Pandas | Data handling |
+| Scikit-learn | Machine Learning |
+| Matplotlib | Data visualization |
+| CSV Dataset | Training data |
 
 ---
 
-🧠 Technical Insights
+# 🖥️ GUI Overview
 
-- Uses rule-based AI system for classification
-- Applies pattern recognition techniques
-- Designed for low computational cost
-- Easily extendable to ML/NLP models
-
----
-
-🤖 Machine Learning Integration (Future Scope)
-
-- Supervised learning for file classification
-- NLP for document understanding
-- Lightweight models for edge devices
+The application includes:
+- Modern dark-themed interface
+- Study hour input system
+- AI schedule generation
+- Progress completion buttons
+- Streak tracking
+- Graphical study analysis
 
 ---
 
-⚠️ Limitations
+# 📊 Visualization System
 
-- Limited understanding of complex file content
-- Depends on predefined rules
-- No deep learning integration yet
+Matplotlib is used to generate:
+- Pie charts for study distribution
+- Subject-wise analysis
+- Time allocation visualization
 
----
-
-🔮 Future Improvements
-
-- Integration with NLP models
-- Real-time file monitoring
-- GUI-based interface
-- Multi-language file classification (including Japanese)
+This helps users understand study balance visually.
 
 ---
 
-🌍 Why This Project Matters
+# 🔄 Workflow
 
-This project contributes to improving digital workflow efficiency and automation.
-It aligns with global trends in intelligent systems and supports productivity in data-driven environments.
-
-It also has potential relevance to:
-
-- Smart workplaces
-- Research environments
-- Automation-focused systems (important in countries like Japan)
-
----
-
-📈 Impact
-
-- Reduces manual file organization effort
-- Improves productivity
-- Enables intelligent automation in simple systems
+```text
+User Input
+   ↓
+Difficulty Analysis
+   ↓
+AI Productivity Prediction
+   ↓
+Study Time Distribution
+   ↓
+Progress Tracking
+   ↓
+History Saving
+```
 
 ---
 
-👤 Author
+# 📂 Project Structure
+
+```text
+ai-study-planner/
+│
+├── gui.py
+├── model.py
+├── planner.py
+├── train_model.py
+├── dataset.csv
+├── study_history.txt
+├── screenshots/
+└── README.md
+```
+
+---
+
+# ▶️ How to Run
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Anujgorde2007-lab/ai-study-planner.git
+```
+
+---
+
+## 2️⃣ Install Requirements
+
+```bash
+pip install pandas scikit-learn matplotlib
+```
+
+---
+
+## 3️⃣ Run Application
+
+```bash
+python gui.py
+```
+
+---
+
+# 📸 Screenshots
+
+## 🌙 Dark Mode
+
+![Dark Mode](./screenshots/dark-mode.png)
+
+---
+
+## ☀️ Light Mode
+
+![Light Mode](./screenshots/light-mode.png)
+
+---
+
+# 📈 Example Output
+
+```text
+Math → 2.3 hrs
+AI → 2.3 hrs
+Python → 1.4 hrs
+
+AI Productivity Score: 12
+```
+
+---
+
+# 🔥 Advanced Functionalities
+
+## ✅ Progress Tracking
+Tracks completed study sessions.
+
+## ✅ Study History Saving
+Automatically stores study activity.
+
+## ✅ Daily Streak Counter
+Encourages study consistency and discipline.
+
+## ✅ AI Productivity Prediction
+Predicts productivity based on workload distribution.
+
+---
+
+# 🌍 Real-World Applications
+
+This system can be expanded into:
+- AI learning assistants
+- Student productivity systems
+- Smart educational platforms
+- Adaptive learning applications
+- Personalized study management tools
+
+---
+
+# 🚧 Future Improvements
+
+- Login authentication system
+- Cloud database integration
+- Voice assistant support
+- Mobile app version
+- Real-time analytics dashboard
+- Advanced deep learning recommendation system
+
+---
+
+# 💡 Technical Insights
+
+This project demonstrates:
+- GUI application development
+- AI integration into productivity systems
+- Practical machine learning usage
+- Data visualization techniques
+- User-centered software design
+
+---
+
+# 🎓 Academic Importance
+
+This project reflects interdisciplinary integration of:
+- Artificial Intelligence
+- Human productivity optimization
+- Educational technology
+- Data-driven decision systems
+
+It also demonstrates how lightweight AI systems can solve practical real-world problems.
+
+---
+
+# 👨‍💻 Author
 
 Anuj Gorde
-Aspiring AI Engineer | Focused on building efficient and scalable intelligent systems
+
+AI Enthusiast | Python Developer | Machine Learning Learner
+
+GitHub:
+https://github.com/Anujgorde2007-lab
 
 ---
 
-📜 License
+# 📜 License
 
-This project is open-source and available for educational use.
+This project is licensed under the MIT License.
+
+---
