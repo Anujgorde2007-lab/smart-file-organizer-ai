@@ -1,127 +1,99 @@
-# 🚀 AI Study Planner
+# 📂 Smart File Organizer AI
 
-An intelligent AI-powered study planner built using Python, Machine Learning, Tkinter GUI, and Matplotlib visualization.  
-This project helps students generate optimized study schedules based on subject difficulty, study hours, productivity analysis, and progress tracking.
+An intelligent AI-powered file management system developed using Python.  
+This project helps users automatically organize files based on type, extension, and category while providing a clean modern interface with dark/light mode support.
 
-Designed as a lightweight desktop productivity assistant, the system combines AI concepts with an interactive graphical interface to improve learning efficiency and study consistency.
-
----
-
-# 🎯 Project Objective
-
-Many students struggle with:
-- Poor time management
-- Unbalanced study schedules
-- Lack of consistency
-- Difficulty prioritizing subjects
-- No visual understanding of study distribution
-
-This project solves these problems using AI-based planning and productivity tracking.
+The system is designed to improve productivity, reduce manual sorting, and demonstrate practical AI-based automation concepts.
 
 ---
 
-# ✨ Features
+# 🚀 Features
 
-✅ AI-based study plan generation  
-✅ Subject difficulty analysis  
-✅ Smart time distribution system  
-✅ Productivity prediction score  
-✅ Interactive Tkinter GUI  
-✅ Matplotlib pie chart visualization  
-✅ Study progress tracker  
-✅ Daily streak counter  
-✅ Reset streak functionality  
-✅ Study history saving system  
-✅ Lightweight desktop application  
-✅ Beginner-friendly ML integration
+✅ Automatic file organization  
+✅ AI-inspired smart categorization  
+✅ Dark mode and light mode UI  
+✅ Fast file scanning and sorting  
+✅ User-friendly interface  
+✅ Productivity-focused workflow  
+✅ Real-time file management  
+✅ Clean and organized folder structure  
+✅ Beginner-friendly AI automation project  
 
 ---
 
-# 🧠 AI / Machine Learning Concept
+# 🧠 AI Concept
 
-The project uses a simple Machine Learning model trained on study-related data.
+This project uses basic AI and automation concepts to classify and organize files intelligently based on patterns such as:
 
-The AI system:
-- Analyzes subject difficulty
-- Predicts productivity
-- Allocates study hours intelligently
-- Generates optimized schedules
+- File extensions
+- File categories
+- File type recognition
+- Sorting logic
+- Automated directory management
 
-This demonstrates practical implementation of:
-- Data preprocessing
-- ML model training
-- Prediction systems
-- AI-assisted productivity tools
+The goal is to simulate smart decision-making in file organization systems.
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-| Technology | Usage |
+- Python
+- CustomTkinter
+- OS Module
+- shutil
+- Machine Learning Concepts
+- File System Automation
+
+---
+
+# 📌 Problem Statement
+
+Managing large numbers of files manually can become time-consuming and inefficient.
+
+This project solves that problem by automatically organizing files into categorized folders, improving productivity and workspace cleanliness.
+
+---
+
+# ✨ Key Features
+
+| Feature | Description |
 |---|---|
-| Python | Core programming |
-| Tkinter | GUI development |
-| Pandas | Data handling |
-| Scikit-learn | Machine Learning |
-| Matplotlib | Data visualization |
-| CSV Dataset | Training data |
+| Smart Sorting | Automatically categorizes files |
+| Dark/Light Mode | Modern UI experience |
+| Automation | Reduces manual work |
+| Clean Interface | Easy to use |
+| AI Logic | Intelligent file handling |
+| Productivity Focus | Faster organization |
 
 ---
 
-# 🖥️ GUI Overview
-
-The application includes:
-- Modern dark-themed interface
-- Study hour input system
-- AI schedule generation
-- Progress completion buttons
-- Streak tracking
-- Graphical study analysis
-
----
-
-# 📊 Visualization System
-
-Matplotlib is used to generate:
-- Pie charts for study distribution
-- Subject-wise analysis
-- Time allocation visualization
-
-This helps users understand study balance visually.
-
----
-
-# 🔄 Workflow
+# ⚙️ How It Works
 
 ```text
-User Input
-   ↓
-Difficulty Analysis
-   ↓
-AI Productivity Prediction
-   ↓
-Study Time Distribution
-   ↓
-Progress Tracking
-   ↓
-History Saving
+User Selects Folder
+        ↓
+File Scan Starts
+        ↓
+AI-Based Categorization
+        ↓
+Automatic File Sorting
+        ↓
+Organized Folder Output
 ```
 
 ---
 
-# 📂 Project Structure
+# 📁 Project Structure
 
 ```text
-ai-study-planner/
+smart-file-organizer-ai/
 │
-├── gui.py
-├── model.py
-├── planner.py
-├── train_model.py
-├── dataset.csv
-├── study_history.txt
 ├── screenshots/
-└── README.md
+│
+├── organizer.py
+├── requirements.txt
+├── README.md
+└── LICENSE
 ```
 
 ---
@@ -131,26 +103,32 @@ ai-study-planner/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/Anujgorde2007-lab/ai-study-planner.git
+git clone https://github.com/Anujgorde2007-lab/smart-file-organizer-ai.git
 ```
 
 ---
 
-## 2️⃣ Install Requirements
+## 2️⃣ Open Project Folder
 
 ```bash
-pip install pandas scikit-learn matplotlib
+cd smart-file-organizer-ai
 ```
 
 ---
 
-## 3️⃣ Run Application
+## 3️⃣ Install Dependencies
 
 ```bash
-python gui.py
+pip install -r requirements.txt
 ```
 
 ---
+
+## 4️⃣ Run Project
+
+```bash
+python organizer.py
+```
 
 ---
 
@@ -168,79 +146,43 @@ python gui.py
 
 ---
 
----
----
+# 📈 Future Improvements
 
-# 📈 Example Output
-
-```text
-Math → 2.3 hrs
-AI → 2.3 hrs
-Python → 1.4 hrs
-
-AI Productivity Score: 12
-```
-
----
-
-# 🔥 Advanced Functionalities
-
-## ✅ Progress Tracking
-Tracks completed study sessions.
-
-## ✅ Study History Saving
-Automatically stores study activity.
-
-## ✅ Daily Streak Counter
-Encourages study consistency and discipline.
-
-## ✅ AI Productivity Prediction
-Predicts productivity based on workload distribution.
-
----
-
-# 🌍 Real-World Applications
-
-This system can be expanded into:
-- AI learning assistants
-- Student productivity systems
-- Smart educational platforms
-- Adaptive learning applications
-- Personalized study management tools
-
----
-
-# 🚧 Future Improvements
-
-- Login authentication system
-- Cloud database integration
+- AI-based file recommendation system
+- Duplicate file detection
+- Cloud storage integration
 - Voice assistant support
-- Mobile app version
-- Real-time analytics dashboard
-- Advanced deep learning recommendation system
+- Drag-and-drop functionality
+- Database integration
+- Advanced ML categorization
 
 ---
 
-# 💡 Technical Insights
+# 🎯 Project Impact
 
 This project demonstrates:
-- GUI application development
-- AI integration into productivity systems
-- Practical machine learning usage
-- Data visualization techniques
-- User-centered software design
+
+- Practical Python development
+- Automation concepts
+- UI/UX design
+- AI-inspired workflow systems
+- Problem-solving ability
+- Productivity-focused software development
+
+It reflects my interest in Artificial Intelligence and intelligent automation systems.
 
 ---
 
-# 🎓 Academic Importance
+# 📚 Learning Outcomes
 
-This project reflects interdisciplinary integration of:
-- Artificial Intelligence
-- Human productivity optimization
-- Educational technology
-- Data-driven decision systems
+Through this project, I improved my understanding of:
 
-It also demonstrates how lightweight AI systems can solve practical real-world problems.
+- Python GUI development
+- File system management
+- Automation logic
+- Project structuring
+- GitHub project management
+- AI-inspired software systems
 
 ---
 
@@ -248,15 +190,11 @@ It also demonstrates how lightweight AI systems can solve practical real-world p
 
 Anuj Gorde
 
-AI Enthusiast | Python Developer | Machine Learning Learner
-
-GitHub:
+GitHub:  
 https://github.com/Anujgorde2007-lab
 
 ---
 
-# 📜 License
+# 📄 License
 
 This project is licensed under the MIT License.
-
----
