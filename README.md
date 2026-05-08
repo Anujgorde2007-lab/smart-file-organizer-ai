@@ -158,13 +158,15 @@ python gui.py
 
 ## 🌙 Dark Mode
 
-![Dark Mode](screenshots/dark-mode.png)
+![Dark Mode](screenshots/Smart%20File%20Organizer%20AI%205_8_2026%209_04_43%20AM.png)
 
 ---
 
 ## ☀️ Light Mode
 
-![Light Mode](screenshots/light-mode.png)
+![Light Mode](screenshots/Smart%20File%20Organizer%20AI%205_8_2026%209_04_57%20AM.png)
+
+---
 
 ---
 ---
